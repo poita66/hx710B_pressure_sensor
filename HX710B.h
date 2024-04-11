@@ -24,7 +24,7 @@ class HX710B
 		byte PD_SCK;	// Power Down and Serial Clock Input Pin
 		byte DOUT;		// Serial Data Output Pin
 		byte GAIN;
-		long READ_TIMES = 10;
+		long READ_TIMES = 3;
 		long OFFSET = -540000;;	// used for tare weight
 		float SCALE = 1;	// used to return weight in grams, kg, ounces, whatever
         float RES = 2.98023e-7;
